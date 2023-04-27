@@ -1,0 +1,572 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3fa;
+}
+
+.contentLeft {
+    display:flex ;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+}
+
+.contentLeft img {
+    width: 8.5rem;
+    margin-top: 3.3rem;
+    
+}
+
+
+.btnHeader {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4.3rem;
+    
+}
+
+.btnHeaderBtn {
+    
+    width: 12rem;
+    margin-left: 1rem;
+    margin-bottom: 1.3rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: #206EE5;
+    border-radius: 3px;
+}
+
+.btnHeaderBtn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: open sans;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/* Section onde tem a Img Home-------------------------- */
+
+
+.sectionHome {
+    display: flex;
+    width: 100%;
+    
+}
+
+.sectionHomeImg {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.contentright img {
+    
+    width: 100%;
+}
+
+
+.conteudo {
+    width: 37rem;
+    margin: auto;
+    padding-bottom: 8rem;
+    padding-left: 6rem;
+}
+
+.conteudo h1 {
+    font-family: oswald;
+    font-size: 3.5rem;
+    color: #091638;
+    line-height: 4.8rem;
+    
+}
+
+.conteudo h3 {
+    font-family: roboto;
+    color: #091638;
+    line-height: 1.9rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.btnFind {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btnFind input {
+    width: 10rem;
+    padding-left: 1.4rem;
+    padding: 0.6rem;
+    border: 0.1rem solid #d9d9d9;
+    border-radius: 0.2rem;
+}
+
+.btnFind a {
+    text-align: center;
+    width: 10rem;
+    margin-left: 1rem;
+    padding: 0.5rem ;
+    border-radius: 4px;
+    background-color: #E87D0C;
+    text-decoration: none;
+    color: #fff;
+    font-family: open sans;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* Selects */
+
+
+.containerTwo{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.h1Find {
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-family: oswald;
+    font-size: 3.1rem;
+    
+    padding-left: 8.7rem;
+}
+
+.boxSelect {
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 0 8rem;
+    
+    width: 100%;
+    
+}
+
+
+.sectionFindHomeOne {
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    flex: 1;
+    padding-bottom: 2rem;
+    
+    font-family: montserrat;
+    
+}
+
+.sectionFindHomeTwo {
+    padding-left: 1rem;
+    flex: 2;
+    
+    font-family: montserrat;
+    
+}
+
+.sectionFindHomeThree {
+    padding-left: 1rem;
+    flex: 1;
+    
+    font-family: montserrat;
+    
+}
+
+
+.boxSelect h4 {
+    font-size: 14px;
+    
+}
+
+.containerThree {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.selectBtnTwo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.selectTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E87D0C;
+   
+}
+
+.selectTwo Select {
+    padding: 8rem;
+}
+
+.selectBtnTwo button {
+    width: 211px;
+    padding: 0.8rem;
+    background-color: #E87D0C;
+    border: none;
+    border-radius: 4px;
+    
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.1s;
+}
+
+.selectBtnTwo button:hover {
+    opacity: 0.8;
+}
+
+.selectBtnTwo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: open sans;
+}
+
+
+/* slider */
+.sectionContainer {
+    width: 100%;
+}
+
+.sectionSlider {
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+.boxSlider {
+    
+    padding: 10px;
+    display: flex;
+    margin-bottom: 8rem;
+    background-color: #ffffff;
+    font-family: roboto;
+    
+}
+
+
+
+.boxSlider img {
+    width: 100%;
+}
+
+
+/* slider */
+
+
+.sectionContainer h1 {
+    font-family: oswald;
+    font-size: 3rem;
+}
+
+/* slider */
+
+
+
+
+
+
+/* Footer */
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #062A40;
+}
+
+.titleFooter {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+   
+}
+
+.titleFooter button {
+    height: 3rem;
+    width: 12rem;
+    background-color: #E87D0C;
+    border: none;
+    border-radius: 2px;
+}
+
+.titleFooter a {
+    color: #fff;
+    text-decoration: none;
+}
+.titleFooter h1 {
+    font-size: 2.5rem;
+    font-family: oswald;
+    color: #fff;
+}
+
+.titleFooter h1 span {
+    color: #E87D0C;
+}
+
+.borderFooter {
+    width: 78%;
+    margin: auto;
+    margin-top: 1.5rem;
+     border-bottom: 1px solid #fff;
+}
+
+.contentFooterContainer {
+    display: flex;
+    width: 80%;
+    
+    margin: auto;
+}
+
+.logoFooter {
+    display: flex;
+    width: 233px;
+    height: 233px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+
+.listfooter {
+    display: flex;
+    width: 80%;
+    
+    justify-content: flex-end;
+    
+}
+
+
+.listFooterOne {
+    width: 200px;
+   
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.listfooter h2{
+    color: #fff;
+    font-size: 0.9rem;
+    font-family: dm sans;
+}
+
+.listFooterOne ul li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.6rem;
+    font-family: dm sans;
+    color: #979797;
+}
+
+.listFooterOne ul li a {
+    text-decoration: none;
+    color: #979797;
+    font-size: 1rem;
+}
+
+
+
+/* Footer */
+
+
+
+
+@media(max-width:980px) {
+    .container {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contentLeft {
+        
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .contentright {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contentright img {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .btnFind {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .btnFind a {
+        margin-top: 1rem;
+        margin-left: inherit;
+    }
+
+    .btnHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerTwo {
+        flex-direction: column;
+    }
+
+    .boxSelect {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sectionHomeImg {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .conteudo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: inherit;
+        text-align: center;
+    }
+
+    .conteudo h1  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo h3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .containerTwo {
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+    }
+
+     .h1Find {
+        align-items: center;
+        padding-left: inherit;
+    }
+
+
+    .sectionFindHomeOne {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionFindHomeTwo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sectionFindHomeThree {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .containerThree {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .selectBtn {
+        flex-direction: column;
+    }
+
+    .selectBtnTwo {
+        flex-direction: column;
+    }
+
+    .selectBtnTwo button {
+        width: 100%;
+        display: flex;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .selectTwo {
+        flex-direction: column;
+    }
+
+    .range {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .btnAsk {
+        width: 100%;
+        background-color: #E87D0C;
+        display: flex;
+        border-radius: 4px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* slid */
+
+    
+
+    .sectionSlider {
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+    }
+}
